@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio 05</title>
+        <style>
+            h1{
+                color: rgb(235, 156, 11);
+                
+            }
+            h1:hover{
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Iniciando estudos com DOM</h1>
+        <p id="pag1">Aqui vai o resultado</p>
+        <p id="pag2">Aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
+        <div id="divClique">Clique em mim</div>
+        <script>
+            //CSS NO JAVASCRIPT
+            var corpo = window.document.body
+            corpo.style.background = 'rgb(68, 61, 49)'
+            corpo.style.fontFamily = 'Arial, Helvetica, sans-serif'
+            corpo.style.color = 'aliceblue'
+
+            
+            var p1 = window.document.getElementById('pag1')
+            window.document.write(`Está escrito: ${p1.innerText} <br>`) //InnerText pega somente o texto
+
+            var p2 = window.document.getElementById('pag2')
+            window.document.write(`Está escrito: ${p2.innerHTML}`) //InnerHTML pega toda a formatação
+
+            var d = window.document.querySelector('div#divClique')
+            d.style.color = 'rgb(235, 156, 11)'
+        </script>
+    </body>
+</html>

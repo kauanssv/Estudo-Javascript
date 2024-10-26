@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio 07</title>
+        <style>
+            body{
+                background-color: rgb(29, 28, 26);
+                color: rgb(240, 161, 15);
+            }
+            div{
+                font-size: 1.3em;
+                padding-top: 2%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Somando valores</h1>
+        <input type="number" name="txtn1" id="txtn1"> +
+        <input type="number" name="txtn2" id="txtn2">
+        <input type="button" value="somar" onclick="somar()">
+        <div id="resultado">Resultado</div>
+        <script>
+            var vl1 = window.document.getElementById('txtn1')
+            var vl2 = window.document.getElementById('txtn2')
+            var resultado = window.document.getElementById('resultado')
+
+            function somar(){
+                var n1 = Number(vl1.value)
+                var n2 = Number(vl2.value)
+                var r = n1 + n2
+                resultado.innerHTML = `A soma entre os valores é: <strong>${r}</strong>`
+            }
+        </script>
+    </body>
+</html>

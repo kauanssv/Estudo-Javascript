@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio 04</title>
+        <style>
+            body{
+                font-size: 1.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            var nome = window.prompt('Qual seu nome?')
+            document.write(`Seu nome <strong>"${nome}"</strong> tem ${nome.length} letras <br>`)
+            document.write(`Seu nome <strong>"${nome}"</strong> em maiusculas: ${nome.toUpperCase()} <br>`)
+            document.write(`Seu nome <strong>"${nome}"</strong> em minusculas: ${nome.toLowerCase()}`)
+
+/*> var n1 = 15.10
+undefined
+> n1
+15.1
+> n1.toFixed(2)
+'15.10'
+> n1.toFixed(2).replace('.',',')
+'15,10'
+> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+'R$ 15,10'
+> var n1 = 10000000
+undefined
+> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+'R$ 10.000.000,00'*/
+        </script>
+    </body>
+</html>
