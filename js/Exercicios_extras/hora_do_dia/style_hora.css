@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(44, 41, 37);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: rgb(228, 172, 18);
+    background-color: rgb(109, 98, 77);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(63, 63, 63, 0.329);
+}
+section{
+    background-color: aliceblue;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    color: black;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(63, 63, 63, 0.329);
+    
+}
+#mensagem{
+    text-align: center;
+}
+#imagem{
+    text-align: center;
+    padding-top: 3%;
+}
+#foto{
+    width: 50%;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}
