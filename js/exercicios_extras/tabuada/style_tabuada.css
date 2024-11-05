@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(44, 42, 37);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+}
+h1{
+    color: rgb(214, 129, 18);
+}
+main{
+    background-color: aliceblue;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+}
+input{
+    margin-top: 15px;
+}
+
+footer{
+    text-align: center;
+
+}
