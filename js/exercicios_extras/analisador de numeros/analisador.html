@@ -3,29 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contando</title>
+        <title>Analisador</title>
         <link rel="stylesheet" href="style_analisador.css">
     </head>
     <body>
         <header>
-            <h1>Analisador</h1>
+            <h1>Analisador de Numeros</h1>
         </header>
         <main>
             <section>
-                <label for="numero_inicio">Inicio: </label>
-                <input type="number" id="numero_inicio">
-                <br>
-                <label for="numero_fim">Fim: </label>
-                <input type="number" id="numero_fim">
-                <br>
-                <label for="numero_passos">Passos: </label>
-                <input type="number" id="numero_passos">
-                <br>
-                <input type="button" onclick="calcular()" value="Calcular">
-                <p>Contando: </p>
+                <div>
+                    <label>Numero (1 a 100): <input type="number" id="numero"></label>
+                    <input type="button" onclick="adicionar()" value="adicionar">
+                </div>
+                <div>
+                    <br>
+                    <select id="tabela" size="6">
+                    </select>
+                    <br>
+                    <input type="button" value="Finalizar" onclick="finalizar()">
+                </div>
                 <div id="resultado"></div>
             </section>
-            <img src=""
         </main>
         <footer>
             <p>&copy; kauanssv</p>
